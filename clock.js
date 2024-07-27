@@ -20,5 +20,4 @@ function clock(){
     document.getElementById("clock").innerHTML = hour + " : " + minutes + " : " + seconds + " : " + session;
     setTimeout(clock, 1000);
 }
-
 clock(); 
